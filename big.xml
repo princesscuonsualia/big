@@ -19,12 +19,22 @@
                 <field name="OP">MULTIPLY</field>
                 <value name="A">
                   <block type="math_number" id="112">
-                    <field name="NUM">9999999999</field>
+                    <field name="NUM">999999999</field>
                   </block>
                 </value>
                 <value name="B">
-                  <block type="math_number" id="119">
-                    <field name="NUM">9999999999</field>
+                  <block type="math_arithmetic" id="126" inline="true">
+                    <field name="OP">MULTIPLY</field>
+                    <value name="A">
+                      <block type="math_number" id="119">
+                        <field name="NUM">99999999</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="133">
+                        <field name="NUM">999999999</field>
+                      </block>
+                    </value>
                   </block>
                 </value>
               </block>
