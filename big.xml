@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="9" x="-80" y="-47">
+  <block type="oled_cleardisplay" id="9" x="-262" y="-19">
     <next>
       <block type="oled_setcursor" id="52" inline="true">
         <value name="STARTX">
@@ -55,8 +55,28 @@
                                   </block>
                                 </value>
                                 <value name="B">
-                                  <block type="math_number" id="196">
-                                    <field name="NUM">9999999</field>
+                                  <block type="math_arithmetic" id="209" inline="true">
+                                    <field name="OP">MULTIPLY</field>
+                                    <value name="A">
+                                      <block type="math_number" id="196">
+                                        <field name="NUM">9999999</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="math_arithmetic" id="216" inline="true">
+                                        <field name="OP">MULTIPLY</field>
+                                        <value name="A">
+                                          <block type="math_number" id="223">
+                                            <field name="NUM">99999999</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="math_number" id="230">
+                                            <field name="NUM">999999999</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
                                   </block>
                                 </value>
                               </block>
